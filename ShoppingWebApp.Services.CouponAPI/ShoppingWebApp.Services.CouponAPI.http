@@ -1,0 +1,6 @@
+@ShoppingWebApp.Services.CouponAPI_HostAddress = http://localhost:5025
+
+GET {{ShoppingWebApp.Services.CouponAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

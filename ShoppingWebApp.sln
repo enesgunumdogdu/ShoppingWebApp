@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{63BCF083-330A-496C-A69D-D51B6483A070}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingWebApp.Services.CouponAPI", "ShoppingWebApp.Services.CouponAPI\ShoppingWebApp.Services.CouponAPI.csproj", "{6E36468B-DEFE-4208-A2D6-6B3017DEC531}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingWebApp.Services.CouponAPI", "ShoppingWebApp.Services.CouponAPI\ShoppingWebApp.Services.CouponAPI.csproj", "{6E36468B-DEFE-4208-A2D6-6B3017DEC531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingWebApp.Web", "ShoppingWebApp.Web\ShoppingWebApp.Web.csproj", "{EF46B231-4A6E-4B0F-9524-9547A551DB03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,17 @@ Global
 		{6E36468B-DEFE-4208-A2D6-6B3017DEC531}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E36468B-DEFE-4208-A2D6-6B3017DEC531}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E36468B-DEFE-4208-A2D6-6B3017DEC531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF46B231-4A6E-4B0F-9524-9547A551DB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF46B231-4A6E-4B0F-9524-9547A551DB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF46B231-4A6E-4B0F-9524-9547A551DB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF46B231-4A6E-4B0F-9524-9547A551DB03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6E36468B-DEFE-4208-A2D6-6B3017DEC531} = {63BCF083-330A-496C-A69D-D51B6483A070}
+		{EF46B231-4A6E-4B0F-9524-9547A551DB03} = {076649E3-2F99-4861-8845-45B9C0A494F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA4A2610-72F1-441E-9896-C1D8F3B832CF}

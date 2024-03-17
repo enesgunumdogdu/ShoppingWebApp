@@ -1,4 +1,5 @@
-﻿namespace ShoppingWebApp.Web.Models
+﻿
+namespace ShoppingWebApp.Web.Models
 {
     public class CouponDto
     {
@@ -6,5 +7,10 @@
         public string CouponCode { get; set; }
         public double DiscountAmount { get; set; }
         public int MinAmount { get; set; }
+
+        public static implicit operator string(CouponDto v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

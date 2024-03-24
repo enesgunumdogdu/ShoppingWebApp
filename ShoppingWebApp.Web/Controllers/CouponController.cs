@@ -20,7 +20,8 @@ namespace ShoppingWebApp.Web.Controllers
 
             ResponseDto? response = await _couponService.GetAllCouponsAsync();
 
-            if (response != null && response.IsSuccess) {
+            if (response != null && response.IsSuccess)
+            {
                 list = JsonConvert.DeserializeObject<List<CouponDto>>(Convert.ToString(response.Result));
             }
 
